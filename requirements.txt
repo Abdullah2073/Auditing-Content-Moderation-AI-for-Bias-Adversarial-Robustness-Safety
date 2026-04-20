@@ -1,0 +1,29 @@
+# FAST-NUCES Responsible & Explainable AI – Assignment 2
+# Pinned dependency versions for reproducibility
+# Python 3.10+ required
+
+# ── Core ML / NLP ─────────────────────────────────────────────────────────────
+torch==2.2.1
+transformers==4.40.0
+datasets==2.19.0
+tokenizers==0.19.1
+
+# ── Fairness & Bias Libraries ──────────────────────────────────────────────────
+scikit-learn==1.4.2
+fairlearn==0.10.0
+aif360==0.6.1
+imbalanced-learn==0.12.2
+
+# ── Data & Computation ─────────────────────────────────────────────────────────
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.0
+
+# ── Visualisation ──────────────────────────────────────────────────────────────
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+tqdm==4.66.2
+huggingface-hub==0.22.2
+accelerate==0.29.3
